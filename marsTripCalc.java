@@ -110,7 +110,7 @@ public class marsTripCalc {
         } else if (gender.equals("F")) {
             bee = 655.1 + 9.6 * weightKg + 1.9 * heightCm - 4.7 * age;
         } else {
-            System.out.println("Invalid gender input.");
+            System.out.println("As of now only Male and Female are available as gender options as provided by the equations/research available online, please try again");
             scanner.close();
             return;
         }
